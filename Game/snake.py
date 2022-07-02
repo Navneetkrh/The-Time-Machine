@@ -24,7 +24,7 @@ while not game_over:
         if event.type == pygame.QUIT:
             game_over = True
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_LEFT:
+            if event.key == pygame.K_d:
                 x1_change = -10
                 y1_change = 0
             elif event.key == pygame.K_RIGHT:
